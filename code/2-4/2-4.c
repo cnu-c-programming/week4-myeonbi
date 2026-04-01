@@ -11,8 +11,8 @@ int main() {
             ch, 
             isalpha(ch), 
             isdigit(ch), 
-            isupper(ch), 
-            islower(ch));
+            toupper(ch), 
+            tolower(ch));
     }
     return 0;
 }
